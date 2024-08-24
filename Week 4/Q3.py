@@ -8,7 +8,7 @@ user_input = input("Enter a list of numbers separated by spaces: ")
 number_list = list(map(int, user_input.split()))
 
 # Print the original list of numbers
-print("Original list:", number_list)
+print("Original list:", number_list) 
 
 # Initialize an empty list to store the squared numbers
 squared_list = []
