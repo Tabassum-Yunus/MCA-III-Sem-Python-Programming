@@ -9,7 +9,7 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))        
 
  # Calulate product of the entered numbers
-prod = a*b                          
+prod = a*b                         
 
 # Check if product is less than or equal to 5000
 if( prod <= 5000 ):
