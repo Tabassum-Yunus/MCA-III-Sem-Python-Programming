@@ -9,7 +9,7 @@ import itertools as t
 user_input1 = input("Enter list of integers separated by space: ")
 
 # The input string is splitted using split() finction into individual components (based on spaces) 
-# and then converted into a list of integers using map() function.
+# and then converted into a list of integers using map() function and then make a list using list().
 list1 = list(map(int, user_input1.split()))
 
 # Prompts the user to input a list of integers separated by spaces.
