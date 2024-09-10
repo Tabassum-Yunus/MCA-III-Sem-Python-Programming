@@ -1,4 +1,4 @@
-'''     Find the frequency of each element entered in list      '''
+'''     Find the frequency of each entered element using list     '''
 
 
 
