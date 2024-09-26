@@ -1,3 +1,0 @@
-File1 first line
-File1 middle line
-File1 last line
