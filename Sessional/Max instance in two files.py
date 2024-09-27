@@ -41,7 +41,6 @@ for fileA_key,fileA_value in fileA_dict.items():
 
 print('Word of File A having maximum frequency in File B: ',wordA)
 
-
 m = 0
 for fileB_key, fileB_value in fileB_dict.items():
     for fileA_key, fileA_value in fileA_dict.items():
