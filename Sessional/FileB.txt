@@ -1,3 +1,4 @@
-file 2 line 1
-file 2 line 2
-file 2 line 3
+Consider two text files with some content. Copy the contents of them in third file such that 
+line 1 of third file will have line 1 of first file, line 2 of third file will have line 1 of second file,
+line 3 of third file will have line 2 of first file, line 4 of third file will have line 2 of second file
+and so on

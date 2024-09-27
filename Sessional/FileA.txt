@@ -1,5 +1,4 @@
-file 1 line 1
-file 1 line 2
-file 1 line 3
-file 1 line 4
-file 1 line 5
+Write a python program that finds the word in each file,
+which is having maximum instances in another file. Suppose two existing files are file A and file B.
+So you need to find a word from file A, which is having maximum instances in file B and in similar 
+fashion, find a word from file B, which is having maximum instances in file a.
