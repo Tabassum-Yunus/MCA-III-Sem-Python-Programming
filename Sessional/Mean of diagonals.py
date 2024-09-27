@@ -7,21 +7,21 @@ import numpy as np
 n = int(input('Enter dimension of array: '))
 
 # Initialize variables to store the sum of the diagonals
-diag1 = diag2 = 0
+main_diagonal = anti_diagonal = 0
 
 # Create an n x n array of random integers between 1 and 100
 arr = np.random.randint(1, 100, (n, n))
 
 # Loop to calculate the sum of the elements on the main diagonal and antidiagonal
 for i in range(n):
-    diag1 += arr[i, i]           # Get the elements of the main (leading) diagonal
-    diag2 += arr[i, n - (i + 1)] # Get the elements of the antidiagonal (opposite diagonal)
+    main_diagonal += arr[i, i]           # Get the elements of the main (leading) diagonal
+    anti_diagonal += arr[i, n - (i + 1)] # Get the elements of the antidiagonal (opposite diagonal)
 
 # Print the generated array
 print(arr)
 
 # Print the average of the main diagonal
-print('Average of leading diagonal: ', diag1 / n)
+print('Average of leading diagonal: ', main_diagonal / n)
 
 # Print the average of the antidiagonal
-print('Average of antidiagonal: ', diag2 / n)
+print('Average of antidiagonal: ', anti_diagonal / n)
