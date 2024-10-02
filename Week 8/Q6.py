@@ -2,7 +2,7 @@
 
 
 # Open the file 'File_W8Q6.txt' in read mode (r)
-fh = open('File_W8Q6.txt', 'r+')
+fh = open('D:\MyVScodeProgs\Programs\Python\Week 8\File_W8Q6.txt', 'r+')
 
 # Initialize an empty dictionary to store the count of vowels
 d = dict()
