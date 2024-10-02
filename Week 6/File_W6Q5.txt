@@ -1,0 +1,5 @@
+NAME 	 ROLL NO. 	 MARKS
+Jerry 	 R001 		 100, 100, 100
+Oreo 	 R002 		 89, 91, 100
+Denny 	 R003 		 100, 98, 67
+Cookie 	 R004 		 85, 91, 100
