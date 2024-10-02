@@ -2,8 +2,8 @@
         present at middle line of first file with the content of last line of the second file. 
         (Note: First file contains odd numbers of lines of statement)     '''
 
-fh1 = open('File1_W7Q6.txt', 'r+')
-fh2 = open('File2_W7Q6.txt', 'r+')
+fh1 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File1_W7Q6.txt', 'r+')
+fh2 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File2_W7Q6.txt', 'r+')
 
 f1_lines = fh1.readlines()
 f2_lines = fh2.readlines()
