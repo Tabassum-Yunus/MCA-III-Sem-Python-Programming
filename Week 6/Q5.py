@@ -1,5 +1,5 @@
 '''     Write a program to get roll numbers, names and marks of the students of a class
-        (get from user) and store these details in a file called “Marks.data”.'''
+        (get from user) and store these details in a file.      '''
 
 fh = open('D:\MyVScodeProgs\Programs\Python\Week 6\File_W6Q5.txt', 'w')
 print('Enter name, roll no and marks of strudents')
