@@ -2,29 +2,39 @@
         present at middle line of first file with the content of last line of the second file. 
         (Note: First file contains odd numbers of lines of statement)     '''
 
-fh1 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File1_W7Q6.txt', 'r+')
-fh2 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File2_W7Q6.txt', 'r+')
+# Open the two files in read mode
+file1 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File1_W7Q6.txt', 'r')
+file2 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File2_W7Q6.txt', 'r')
 
-f1_lines = fh1.readlines()
-f2_lines = fh2.readlines()
-print('BEFORE SWAPPIPNG')
-print('Content of file 1: ',f1_lines)
-print('Content of file 2: ',f2_lines)
+# Read all lines from both files and store them in lists
+file1_lines = file1.readlines()
+file2_lines = file2.readlines()
 
-fh1.close()
-fh2.close()
+# Display the content before swapping
+print('BEFORE SWAPPING')
+print('Content of file 1: ', file1_lines)
+print('Content of file 2: ', file2_lines)
 
-fh1 = open('File1_W7Q6.txt', 'w')
-fh2 = open('File2_W7Q6.txt', 'w')
+# Close the files as the reading operation is complete
+file1.close()
+file2.close()
 
-f1_lines[len(f1_lines)//2], f2_lines[len(f2_lines)-1] = f2_lines[len(f2_lines)-1], f1_lines[len(f1_lines)//2]
+# Re-open the files in write mode to apply changes after swapping
+file1 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File1_W7Q6.txt', 'w')
+file2 = open('D:\MyVScodeProgs\Programs\Python\Week 7\File2_W7Q6.txt', 'w')
 
-print('AFTER SWAPPIPNG')
-print('Content of file 1: ',f1_lines)
-print('Content of file 2: ',f2_lines)
+# Swap the content of the middle line of file1 with the last line of file2
+file1_lines[len(file1_lines)//2], file2_lines[len(file2_lines)-1] = file2_lines[len(file2_lines)-1], file1_lines[len(file1_lines)//2]
 
-fh1.writelines(f1_lines)
-fh2.writelines(f2_lines)
+# Display the content after swapping
+print('AFTER SWAPPING')
+print('Content of file 1: ', file1_lines)
+print('Content of file 2: ', file2_lines)
 
-fh1.close()
-fh2.close()
+# Write the modified content back into the files
+file1.writelines(file1_lines)
+file2.writelines(file2_lines)
+
+# Close the files after writing is done
+file1.close()
+file2.close()
