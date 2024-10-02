@@ -1,0 +1,6 @@
+MCA,Database 
+MCA,Java 
+M.Sc,Data Structure
+B.Sc, Python
+MCA, Software Engineering
+M.Sc, Cyber Security
