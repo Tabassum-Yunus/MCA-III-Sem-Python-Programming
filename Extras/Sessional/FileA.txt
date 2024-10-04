@@ -1,4 +1,4 @@
 Write a python program that finds the word in each file,
 which is having maximum instances in another file. Suppose two existing files are file A and file B.
 So you need to find a word from file A, which is having maximum instances in file B and in similar 
-fashion, find a word from file B, which is having maximum instances in file a.
+fashion, find a word from file B, which is having maximum instances in file a. 
