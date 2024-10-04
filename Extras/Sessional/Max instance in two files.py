@@ -5,8 +5,8 @@ fashion, find a word from file B, which is having maximum instances in file a.''
 
 
 # Open the input files for reading
-fh1 = open('D:\\MyVScodeProgs\\Programs\\Python\\Sessional\\FileA.txt', 'r') 
-fh2 = open('D:\\MyVScodeProgs\\Programs\\Python\\Sessional\\FileB.txt', 'r')  
+fh1 = open('D:\MyVScodeProgs\Programs\Python\Extras\Sessional\FileA.txt', 'r') 
+fh2 = open('D:\MyVScodeProgs\Programs\Python\Extras\Sessional\FileB.txt', 'r')  
 
 fileA_dict = dict()
 fileB_dict = dict()
