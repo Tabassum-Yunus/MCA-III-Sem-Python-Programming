@@ -9,3 +9,9 @@ print(series)
 # Series with defined indices i.e., a,b,c,d---
 series.index = ['a','b', 'c','d']       # if indices are less than elements ---> will give error
 print(series)
+
+
+
+# Series with defined indices i.e., a,b,c,d---
+# mySer = pd.Series(['Google', 'GDrive', 'GMeet'], ['a', 'b', 'c'])
+# print(mySer)
