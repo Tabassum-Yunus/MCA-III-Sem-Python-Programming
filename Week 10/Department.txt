@@ -1,0 +1,5 @@
+D101, Computer-Science, Aligarh
+D102, Engineering, Aligarh-UP
+D103, IT, AMU-Cicle
+D104, Political-Science, Aligarh
+D105, Chemistry, Aligarh

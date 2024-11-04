@@ -1,0 +1,12 @@
+Jerry, E101, 40000.98, D101, Computer-Science, Aligarh
+Oreo, E102, 25000.56, D102, Engineering, Aligarh-UP
+Denny, E103, 50000, D103, IT, AMU-Cicle
+Cookie, E104, 60000, D103, IT, AMU-Cicle
+Chintu, E105, 30000.76, D101, Computer-Science, Aligarh
+Daizy, E106, 25000, D102, Engineering, Aligarh-UP
+Meow, E107, 50000, D103, IT, AMU-Cicle
+Max, E108, 45000.78, D101, Computer-Science, Aligarh
+Lily, E109, 35000.43, D102, Engineering, Aligarh-UP
+kitty, E110, 56000.5, D104, Political-Science, Aligarh
+Oliver, E111, 45000, D102, Engineering, Aligarh-UP
+Charlie, E112, 30000, D103, IT, AMU-Cicle
